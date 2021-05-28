@@ -11,7 +11,6 @@ import { LayoutToggle } from "./LayoutToggle";
     setState: custom method for setting the state of the application
 */
 
-
 export const Ubergram = ({ state, setState }) => {
   const [load, setLoad] = useState(true);
   const [loading, setLoading] = useState(false);
