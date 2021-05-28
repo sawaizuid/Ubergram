@@ -1,31 +1,40 @@
 
+##  Ubergram - Introduction
 
 Ubergram uses GIPHY image search API and to shows the results in a 1-column scrollable view (like Instagram) and the let users enter queries, such as "kittens"and support endless scrolling, automatically requesting and displaying more images when the user scrolls to the bottom of the view.
 
 
-## Getting Started with Ubergram
+## Getting Started 
 
-## Git Clone the repo
+### Git Clone the repo
 
-### `git clone github.com/sawaizuid/ubergram.git`
+ ```git clone https://github.com/sawaizuid/Ubergram.git```
 
 In the project directory
 
 ### Install npm modules
 
- ```npm i```
+ ```node
+    npm i
+ ```
 
-To start the app.
+### Run in Development mode
+To start the app and run in the development mode. Run the command
 
-#### `npm start`
+```node 
+   npm start
+```
 
-Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-#### `npm test`
+
+### Unit testing is donme by Enzyme 
+ ```node
+    npm test
+ ```
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
