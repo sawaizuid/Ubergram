@@ -3,6 +3,8 @@
 
 Ubergram uses GIPHY image search API and to shows the results in a 1-column scrollable view (like Instagram) and the let users enter queries, such as "kittens"and support endless scrolling, automatically requesting and displaying more images when the user scrolls to the bottom of the view.
 
+It uses Semantic React UI library components like Button, Checkboxes and field [https://react.semantic-ui.com/] (Semantic UI - React)
+
 
 ## Getting Started 
 
@@ -45,6 +47,7 @@ Made with love by Awaiz S
 
 ##### Things I would like to add:
 
+- Add Duplicate image check to render the images and add like and score tags.
 - Integrate Typescript and to do propType checking
 - Integrate Redux 
 - Increase to 100% test coverages
